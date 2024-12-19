@@ -29,15 +29,18 @@ jobs:
       - name: Update package.json homepage
         uses: jossef/action-set-json-field@v1
         with:
-          file: package.json
+          file: ./steve-als-beer/package.json  # Update the path to package.json
           field: homepage
           value: ${{ steps.get-repo-values.outputs.url }}
 
       - run: npm ci
+        working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
 
       - run: echo "<html><head><meta http-equiv='refresh' content='0; URL=${{github.server_url}}/${{github.repository}}' /></head><body>Redirecting to repository</body></html>" > ./steve-als-beer/public/github.html
+        working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
 
       - run: npm run build --if-present
+        working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
 
       - name: Deploy
         run: |
@@ -45,6 +48,7 @@ jobs:
           git config --global user.email "${user_email}"
           git remote set-url origin https://${github_token}@github.com/${repository}
           npm run deploy
+        working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
         env:
           user_name: "github-actions[bot]"
           user_email: "github-actions[bot]@users.noreply.github.com"
