@@ -36,7 +36,7 @@ jobs:
       - run: npm ci
         working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
 
-      - run: echo "<html><head><meta http-equiv='refresh' content='0; URL=${{github.server_url}}/${{github.repository}}' /></head><body>Redirecting to repository</body></html>" > ./steve-als-beer/public/github.html
+      - run: echo "<html><head><meta http-equiv='refresh' content='0; URL=${{github.server_url}}/${{github.repository}}' /></head><body>Redirecting to repository</body></html>" > ./public/github.html
         working-directory: ./steve-als-beer  # Set the working directory to the subdirectory
 
       - run: npm run build --if-present
