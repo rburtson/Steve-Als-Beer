@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Steve-Als-Beer/static/css/main.f855e6bc.css",
-    "main.js": "/Steve-Als-Beer/static/js/main.d6b6d56c.js",
+    "main.css": "/Steve-Als-Beer/static/css/main.5e375739.css",
+    "main.js": "/Steve-Als-Beer/static/js/main.0b3c6aa6.js",
     "static/js/488.94632b9c.chunk.js": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js",
     "index.html": "/Steve-Als-Beer/index.html",
-    "main.f855e6bc.css.map": "/Steve-Als-Beer/static/css/main.f855e6bc.css.map",
-    "main.d6b6d56c.js.map": "/Steve-Als-Beer/static/js/main.d6b6d56c.js.map",
+    "main.5e375739.css.map": "/Steve-Als-Beer/static/css/main.5e375739.css.map",
+    "main.0b3c6aa6.js.map": "/Steve-Als-Beer/static/js/main.0b3c6aa6.js.map",
     "488.94632b9c.chunk.js.map": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.d6b6d56c.js"
+    "static/css/main.5e375739.css",
+    "static/js/main.0b3c6aa6.js"
   ]
 }
