@@ -1,4 +1,5 @@
 .App {
+  background: linear-gradient(to top, #f7a900, #f7a900, #f7a900, #f7c200, #fff);
   text-align: center;
 }
 
@@ -14,7 +15,6 @@
 }
 
 .App-header {
-  background: linear-gradient(to top, #f7a900, #f7a900, #f7a900, #f7c200, #fff);
   min-height: 200vh;
   display: flex;
   flex-direction: column;
@@ -72,7 +72,7 @@
 
 .center-content {
   grid-column: 2;
-  grid-row: 2;
+  grid-row: span 2;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -121,4 +121,17 @@
   pointer-events: none;
   transition: opacity 0.3s ease;
   white-space: nowrap;
+}
+
+.home-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.home-logo:hover {
+  transform: scale(1.2);
 }
