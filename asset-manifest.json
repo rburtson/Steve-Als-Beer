@@ -1,17 +1,25 @@
 {
   "files": {
-    "main.css": "/Steve-Als-Beer/static/css/main.9b7f1c13.css",
-    "main.js": "/Steve-Als-Beer/static/js/main.416c464e.js",
+    "main.css": "/Steve-Als-Beer/static/css/main.2767c354.css",
+    "main.js": "/Steve-Als-Beer/static/js/main.1c706c35.js",
     "static/js/488.94632b9c.chunk.js": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js",
-    "static/media/goCrazy.mp3": "/Steve-Als-Beer/static/media/goCrazy.b300e6bb264d79edcc5a.mp3",
+    "static/media/styles.png": "/Steve-Als-Beer/static/media/styles.fc907ffcff6fa139cf05.png",
+    "static/media/recipes.png": "/Steve-Als-Beer/static/media/recipes.f5391a98839af524fb72.png",
+    "static/media/goCrazy.mp3": "/Steve-Als-Beer/static/media/goCrazy.b91084bf201598a6752c.mp3",
     "static/media/homerBeer.gif": "/Steve-Als-Beer/static/media/homerBeer.1c6c3b23f88370cb264d.gif",
+    "static/media/grains.png": "/Steve-Als-Beer/static/media/grains.0500b7de247d43b2ea3b.png",
+    "static/media/hops.png": "/Steve-Als-Beer/static/media/hops.f9f17f4102c42fa4adcc.png",
+    "static/media/additives.png": "/Steve-Als-Beer/static/media/additives.e31c70750c6acfe9a7a7.png",
+    "static/media/yeast.png": "/Steve-Als-Beer/static/media/yeast.c26c306f366cb69b172c.png",
+    "static/media/book.png": "/Steve-Als-Beer/static/media/book.4daf07c0170671e73bb4.png",
+    "static/media/mash.png": "/Steve-Als-Beer/static/media/mash.d24aff84a7b69eadcff8.png",
     "index.html": "/Steve-Als-Beer/index.html",
-    "main.9b7f1c13.css.map": "/Steve-Als-Beer/static/css/main.9b7f1c13.css.map",
-    "main.416c464e.js.map": "/Steve-Als-Beer/static/js/main.416c464e.js.map",
+    "main.2767c354.css.map": "/Steve-Als-Beer/static/css/main.2767c354.css.map",
+    "main.1c706c35.js.map": "/Steve-Als-Beer/static/js/main.1c706c35.js.map",
     "488.94632b9c.chunk.js.map": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b7f1c13.css",
-    "static/js/main.416c464e.js"
+    "static/css/main.2767c354.css",
+    "static/js/main.1c706c35.js"
   ]
 }
