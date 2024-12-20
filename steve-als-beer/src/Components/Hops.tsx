@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 export function Hops (): React.JSX.Element {
     return (
-        <div className="App-header" style={{minWidth: "124.5vh"}}>
+        <div className="App-header">
             <div className="home-logo">
                 <Link to="/" ><img src={home} alt="Go Home" style={{height: "100px", width: "100px"}} /></Link>
             </div>
