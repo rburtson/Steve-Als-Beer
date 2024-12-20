@@ -6,8 +6,8 @@ const BubbleEffect = (): React.JSX.Element => {
       const bubble = document.createElement('div'); // Create a new div element for each bubble
       bubble.classList.add('bubble'); // Give the bubble the 'bubble' class
       const size = Math.random() * 30 + 10; // Create a random size for the bubble between 10-40px
-      const leftPosition = Math.random() * 100; // Random bubble position (x-axis)
-      const topPosition = Math.random() * 500; // Random bubble position (y-axis)
+      const leftPosition = Math.random() * 95; // Random bubble position (x-axis)
+      const topPosition = Math.random() * 145; // Random bubble position (y-axis)
       const duration = Math.random() * 4 + 3; // Random duration for the bubble between 4-7s
       const delay = Math.random() * 2; // Random delay between each bubble between 0-2s
 
@@ -26,7 +26,7 @@ const BubbleEffect = (): React.JSX.Element => {
       }, (duration + delay + 1) * 1000); // Remove it after animation duration
     };
 
-    const intervalId = setInterval(createBubble, 300); // Initalize an interval to create bubbles in ms
+    const intervalId = setInterval(createBubble, 350); // Initalize an interval to create bubbles in ms
 
     return () => clearInterval(intervalId); // Cleanup when component is inactive
   }, []); // Runs when the component is active
