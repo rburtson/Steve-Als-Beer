@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import homer from "./homerBeer.gif";
-import audio from "./goCrazy.mp3";
+import homer from "./Graphics/homerBeer.gif";
+import audio from "./Graphics/goCrazy.mp3";
 
 
 const Homer = () => {
