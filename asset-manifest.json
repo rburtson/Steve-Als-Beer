@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Steve-Als-Beer/static/css/main.a71a55ac.css",
-    "main.js": "/Steve-Als-Beer/static/js/main.9681f41c.js",
+    "main.js": "/Steve-Als-Beer/static/js/main.e7378f3f.js",
     "static/js/488.94632b9c.chunk.js": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js",
     "static/media/styles.png": "/Steve-Als-Beer/static/media/styles.fc907ffcff6fa139cf05.png",
     "static/media/recipes.png": "/Steve-Als-Beer/static/media/recipes.f5391a98839af524fb72.png",
@@ -15,11 +15,11 @@
     "static/media/mash.png": "/Steve-Als-Beer/static/media/mash.d24aff84a7b69eadcff8.png",
     "index.html": "/Steve-Als-Beer/index.html",
     "main.a71a55ac.css.map": "/Steve-Als-Beer/static/css/main.a71a55ac.css.map",
-    "main.9681f41c.js.map": "/Steve-Als-Beer/static/js/main.9681f41c.js.map",
+    "main.e7378f3f.js.map": "/Steve-Als-Beer/static/js/main.e7378f3f.js.map",
     "488.94632b9c.chunk.js.map": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a71a55ac.css",
-    "static/js/main.9681f41c.js"
+    "static/js/main.e7378f3f.js"
   ]
 }
