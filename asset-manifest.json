@@ -1,15 +1,17 @@
 {
   "files": {
-    "main.css": "/Steve-Als-Beer/static/css/main.5e375739.css",
-    "main.js": "/Steve-Als-Beer/static/js/main.0b3c6aa6.js",
+    "main.css": "/Steve-Als-Beer/static/css/main.9b7f1c13.css",
+    "main.js": "/Steve-Als-Beer/static/js/main.2b528583.js",
     "static/js/488.94632b9c.chunk.js": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js",
+    "static/media/goCrazy.mp3": "/Steve-Als-Beer/static/media/goCrazy.b300e6bb264d79edcc5a.mp3",
+    "static/media/homerBeer.gif": "/Steve-Als-Beer/static/media/homerBeer.1c6c3b23f88370cb264d.gif",
     "index.html": "/Steve-Als-Beer/index.html",
-    "main.5e375739.css.map": "/Steve-Als-Beer/static/css/main.5e375739.css.map",
-    "main.0b3c6aa6.js.map": "/Steve-Als-Beer/static/js/main.0b3c6aa6.js.map",
+    "main.9b7f1c13.css.map": "/Steve-Als-Beer/static/css/main.9b7f1c13.css.map",
+    "main.2b528583.js.map": "/Steve-Als-Beer/static/js/main.2b528583.js.map",
     "488.94632b9c.chunk.js.map": "/Steve-Als-Beer/static/js/488.94632b9c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e375739.css",
-    "static/js/main.0b3c6aa6.js"
+    "static/css/main.9b7f1c13.css",
+    "static/js/main.2b528583.js"
   ]
 }
