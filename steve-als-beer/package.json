@@ -14,7 +14,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "REACT_APP_LAST_UPDATE=$(date +'%m-%d-%Y') react-scripts build",
+    "build": "REACT_APP_LAST_UPDATE=$(TZ='EST' date +'%m-%d-%Y') react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "test": "react-scripts test",
